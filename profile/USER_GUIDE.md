@@ -1,11 +1,10 @@
 ## Deployment
-
-# 1. Set up an Apache server
+ 1. Set up an Apache server
    
-# 2. Clone the repository’s /src/ (source) directory into the Apache server’s main directory.
+ 2. Clone the repository’s /src/ (source) directory into the Apache server’s main directory.
 - If you want it elsewhere, you may need to configure the .htaccess file within the /src/ directory and the BASE_URL option within the /src/.env file.
 
-# 3. Set up the MySQL database
+ 3. Set up the MySQL database
 - You can either configure src/.env to your liking or tailor your MySQL database to match the default configuration of /src/.env
 - If you wish to use another database type, you can configure the /src/.env to match what you want. Relevant configuration options are:
   DB_ENGINE
@@ -17,7 +16,7 @@
   DB_CONNECTION_STR
 - If the desired database does not exist, you must manually create it.
 
-# 4. Migrate database
+ 4. Migrate database
 - Navigate to /ilgar/migrate on the web server, and you will get a message saying migrations were successful.
 
 ## Storage
