@@ -40,4 +40,12 @@ Our team followed a basic agile-inspired workflow:
 5. **Collaboration & Version Control**  
    Used GitHub to track changes and Figma to map out the potential look of the website.
 
+
+## 📘 User Manual
+The user manual includes:
+- Introduction
+- System Requirements
+- FAQ
+- Setup & Usage Instructions  
+
    
